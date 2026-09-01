@@ -1,1826 +1,675 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-<meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEONOX GAS TECH | High Purity Gas & Pipeline Systems</title>
 
-<title>NEONOX GAS TECH | High Purity Gas & Pipeline Systems</title>
+    <meta name="description"
+          content="NEONOX GAS TECH provides high-purity gas pipeline systems, SS316L piping, orbital welding, gas manifolds, regulators, installation, testing and commissioning.">
 
-<meta name="description"
-content="NEONOX GAS TECH provides high-purity gas pipeline systems, medical gas pipeline systems, manifolds, regulators, precision tubing, fabrication, installation, testing and commissioning.">
-
-<style>
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.6;
-    color: #172033;
-    background: #ffffff;
-}
-
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
-img {
-    max-width: 100%;
-    display: block;
-}
-
-.container {
-    width: 90%;
-    max-width: 1200px;
-    margin: auto;
-}
-
-
-/* ================= HEADER ================= */
-
-header {
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    background: rgba(255,255,255,0.98);
-    border-bottom: 1px solid #e5e7eb;
-    box-shadow: 0 2px 15px rgba(0,0,0,0.05);
-}
-
-.nav {
-    min-height: 78px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 25px;
-}
-
-.logo {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    font-weight: 800;
-    color: #0c4a6e;
-}
-
-.logo img {
-    width: 58px;
-    height: 58px;
-    object-fit: contain;
-    border-radius: 8px;
-}
-
-nav {
-    display: flex;
-    align-items: center;
-    gap: 22px;
-}
-
-nav a {
-    font-size: 14px;
-    font-weight: 600;
-    color: #26364a;
-}
-
-nav a:hover {
-    color: #0077b6;
-}
-
-.nav-cta {
-    background: #0077b6;
-    color: white !important;
-    padding: 11px 17px;
-    border-radius: 7px;
-}
-
-
-/* ================= HERO ================= */
-
-.hero {
-    min-height: 650px;
-    display: flex;
-    align-items: center;
-    background: linear-gradient(
-        135deg,
-        #eef8ff,
-        #ffffff 55%,
-        #f5faff
-    );
-}
-
-.hero-content {
-    max-width: 900px;
-}
-
-.tag {
-    display: inline-block;
-    padding: 8px 14px;
-    border-radius: 30px;
-    background: #e0f2fe;
-    color: #075985;
-    font-size: 13px;
-    font-weight: 800;
-    letter-spacing: 0.7px;
-    margin-bottom: 20px;
-}
-
-h1 {
-    font-size: clamp(42px, 6vw, 72px);
-    line-height: 1.05;
-    margin-bottom: 22px;
-    color: #0f172a;
-}
-
-.hero-text {
-    font-size: 19px;
-    color: #526174;
-    max-width: 800px;
-    margin-bottom: 30px;
-}
-
-.hero-buttons {
-    display: flex;
-    gap: 14px;
-    flex-wrap: wrap;
-}
-
-.btn {
-    display: inline-block;
-    padding: 13px 21px;
-    border-radius: 8px;
-    font-weight: 700;
-    cursor: pointer;
-    border: none;
-    font-size: 15px;
-}
-
-.btn-primary {
-    background: #0077b6;
-    color: white;
-}
-
-.btn-primary:hover {
-    background: #005f8f;
-}
-
-.btn-outline {
-    border: 2px solid #0077b6;
-    color: #0077b6;
-    background: white;
-}
-
-.btn-outline:hover {
-    background: #eef8ff;
-}
-
-.whatsapp {
-    background: #16864b;
-    color: white;
-}
-
-
-/* ================= SECTIONS ================= */
-
-section {
-    padding: 85px 0;
-}
-
-.section-heading {
-    text-align: center;
-    max-width: 800px;
-    margin: 0 auto 45px;
-}
-
-.eyebrow {
-    color: #0077b6;
-    font-size: 13px;
-    font-weight: 800;
-    letter-spacing: 1px;
-}
-
-.section-heading h2 {
-    font-size: 38px;
-    line-height: 1.15;
-    margin: 10px 0 15px;
-    color: #111827;
-}
-
-.section-heading p {
-    color: #64748b;
-    font-size: 17px;
-}
-
-
-/* ================= ABOUT ================= */
-
-.about {
-    background: #f8fafc;
-}
-
-.about-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 50px;
-    align-items: center;
-}
-
-.about-grid h3 {
-    font-size: 28px;
-    margin-bottom: 15px;
-}
-
-.about-grid p {
-    color: #64748b;
-    margin-bottom: 15px;
-}
-
-.about-box {
-    background: white;
-    padding: 35px;
-    border-radius: 15px;
-    border: 1px solid #e2e8f0;
-    box-shadow: 0 10px 35px rgba(15,23,42,0.06);
-}
-
-.about-box h3 {
-    font-size: 26px;
-    margin-bottom: 15px;
-}
-
-.about-list {
-    list-style: none;
-    margin-top: 20px;
-}
-
-.about-list li {
-    margin-bottom: 12px;
-    font-weight: 600;
-}
-
-.about-list li::before {
-    content: "✓";
-    color: #0077b6;
-    font-weight: bold;
-    margin-right: 10px;
-}
-
-
-/* ================= SERVICES ================= */
-
-.services-grid {
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 22px;
-}
-
-.service-card {
-    padding: 30px;
-    border: 1px solid #e2e8f0;
-    border-radius: 14px;
-    background: white;
-    transition: 0.25s;
-}
-
-.service-card:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 15px 35px rgba(15,23,42,0.09);
-}
-
-.service-icon {
-    width: 52px;
-    height: 52px;
-    border-radius: 12px;
-    background: #e0f2fe;
-    color: #0077b6;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 24px;
-    margin-bottom: 18px;
-}
-
-.service-card h3 {
-    margin-bottom: 10px;
-    font-size: 21px;
-}
-
-.service-card p {
-    color: #64748b;
-}
-
-
-/* ================= INDUSTRIES ================= */
-
-.industries {
-    background: #f8fafc;
-}
-
-.industry-grid {
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    gap: 18px;
-}
-
-.industry {
-    padding: 25px;
-    background: white;
-    border-radius: 12px;
-    border: 1px solid #e2e8f0;
-    text-align: center;
-    font-weight: 700;
-}
-
-
-/* ================= PROJECTS ================= */
-
-.projects-grid {
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: 35px;
-}
-
-.project-card {
-    border: 1px solid #e2e8f0;
-    border-radius: 16px;
-    overflow: hidden;
-    background: white;
-    box-shadow: 0 10px 30px rgba(15,23,42,0.06);
-}
-
-.project-image-area {
-    background: #eef2f5;
-    min-height: 220px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 15px;
-}
-
-.project-image-area img {
-    width: 100%;
-    height: 260px;
-    object-fit: cover;
-    border-radius: 10px;
-}
-
-.project-content {
-    padding: 28px;
-}
-
-.project-status {
-    display: inline-block;
-    padding: 6px 12px;
-    border-radius: 30px;
-    background: #fff7ed;
-    color: #c2410c;
-    font-size: 12px;
-    font-weight: 800;
-    margin-bottom: 12px;
-}
-
-.project-status.completed {
-    background: #ecfdf5;
-    color: #047857;
-}
-
-.project-card h3 {
-    font-size: 25px;
-    margin-bottom: 10px;
-}
-
-.project-card p {
-    color: #64748b;
-    margin-bottom: 10px;
-}
-
-.project-note {
-    font-size: 13px;
-}
-
-
-/* ================= GALLERY ================= */
-
-.gallery {
-    background: #f8fafc;
-}
-
-.gallery-grid {
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 15px;
-}
-
-.gallery-item {
-    background: #eef2f5;
-    border-radius: 12px;
-    overflow: hidden;
-    border: 1px solid #e2e8f0;
-}
-
-.gallery-item img {
-    width: 100%;
-    height: 270px;
-    object-fit: cover;
-    transition: 0.25s;
-}
-
-.gallery-item img:hover {
-    transform: scale(1.03);
-}
-
-
-/* ================= WORKFLOW ================= */
-
-.workflow-grid {
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    gap: 18px;
-}
-
-.workflow-step {
-    padding: 25px;
-    border: 1px solid #e2e8f0;
-    border-radius: 12px;
-    background: white;
-}
-
-.step-number {
-    font-size: 13px;
-    font-weight: 800;
-    color: #0077b6;
-    margin-bottom: 8px;
-}
-
-.workflow-step h3 {
-    margin-bottom: 8px;
-}
-
-.workflow-step p {
-    color: #64748b;
-    font-size: 14px;
-}
-
-
-/* ================= CONTACT ================= */
-
-.contact {
-    background: #0f2942;
-    color: white;
-}
-
-.contact-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 50px;
-    align-items: center;
-}
-
-.contact h2 {
-    font-size: 40px;
-    line-height: 1.15;
-    margin: 10px 0 15px;
-}
-
-.contact p {
-    color: #cbd5e1;
-    margin-bottom: 20px;
-}
-
-.contact-details {
-    background: rgba(255,255,255,0.08);
-    padding: 30px;
-    border-radius: 14px;
-}
-
-.contact-details div {
-    margin-bottom: 16px;
-}
-
-.contact-details strong {
-    display: block;
-    color: white;
-}
-
-.contact-details span {
-    color: #cbd5e1;
-}
-
-.contact-actions {
-    display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
-}
-
-
-/* ================= FOOTER ================= */
-
-footer {
-    background: #091827;
-    color: #94a3b8;
-    padding: 25px 0;
-    text-align: center;
-    font-size: 14px;
-}
-
-footer strong {
-    color: white;
-}
-
-
-/* ================= WHATSAPP ================= */
-
-.floating-whatsapp {
-    position: fixed;
-    right: 22px;
-    bottom: 22px;
-    z-index: 999;
-    background: #16864b;
-    color: white;
-    border-radius: 50px;
-    padding: 14px 19px;
-    font-weight: 800;
-    box-shadow: 0 7px 25px rgba(0,0,0,0.22);
-}
-
-
-/* ================= QUOTE MODAL ================= */
-
-.modal {
-    display: none;
-    position: fixed;
-    inset: 0;
-    background: rgba(0,0,0,0.55);
-    z-index: 2000;
-    padding: 25px;
-    overflow: auto;
-}
-
-.modal.open {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.modal-box {
-    background: white;
-    width: min(560px,100%);
-    border-radius: 15px;
-    padding: 30px;
-    position: relative;
-}
-
-.modal-box h3 {
-    margin-top: 0;
-    font-size: 26px;
-    color: #0b3159;
-}
-
-.modal-box p {
-    color: #64748b;
-}
-
-.close {
-    position: absolute;
-    right: 18px;
-    top: 12px;
-    border: none;
-    background: none;
-    font-size: 28px;
-    cursor: pointer;
-}
-
-label {
-    display: block;
-    font-weight: 700;
-    font-size: 14px;
-    margin: 12px 0 5px;
-}
-
-input,
-textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccd6df;
-    border-radius: 7px;
-    font: inherit;
-}
-
-textarea {
-    min-height: 120px;
-    resize: vertical;
-}
-
-.form-actions {
-    margin-top: 18px;
-    display: flex;
-    gap: 10px;
-}
-
-
-/* ================= MOBILE ================= */
-
-@media(max-width:900px) {
-
-    nav a:not(.nav-cta) {
-        display: none;
-    }
-
-    .about-grid,
-    .contact-grid,
-    .projects-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .services-grid {
-        grid-template-columns: repeat(2,1fr);
-    }
-
-    .industry-grid {
-        grid-template-columns: repeat(2,1fr);
-    }
-
-    .workflow-grid {
-        grid-template-columns: repeat(2,1fr);
-    }
-
-    .gallery-grid {
-        grid-template-columns: repeat(2,1fr);
-    }
-}
-
-
-@media(max-width:600px) {
-
-    section {
-        padding: 60px 0;
-    }
-
-    .container {
-        width: 92%;
-    }
-
-    .hero {
-        min-height: 580px;
-    }
-
-    h1 {
-        font-size: 43px;
-    }
-
-    .services-grid,
-    .industry-grid,
-    .workflow-grid,
-    .gallery-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .section-heading h2 {
-        font-size: 31px;
-    }
-
-    .floating-whatsapp {
-        right: 14px;
-        bottom: 14px;
-    }
-}
-
-</style>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 
 <body>
 
-
 <!-- ================= HEADER ================= -->
 
-<header>
+<header class="site-header">
+    <div class="nav-container">
 
-<div class="container nav">
+        <a href="#home" class="logo">
+            <img src="assets/neonox-logo.jpeg" alt="NEONOX GAS TECH">
+        </a>
 
-<a href="#home" class="logo">
+        <nav>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#industries">Industries</a>
+            <a href="#projects">Projects</a>
+            <a href="#workflow">Workflow</a>
+            <a href="#contact" class="nav-cta">Get a Quote</a>
+        </nav>
 
-<img src="neonox-logo.jpeg"
-alt="NEONOX GAS TECH Logo">
-
-<span>NEONOX GAS TECH</span>
-
-</a>
-
-
-<nav>
-
-<a href="#about">About</a>
-
-<a href="#services">Services</a>
-
-<a href="#industries">Industries</a>
-
-<a href="#projects">Projects</a>
-
-<a href="#contact">Contact</a>
-
-<a href="#contact"
-class="nav-cta">
-
-Get a Quote
-
-</a>
-
-</nav>
-
-</div>
-
+    </div>
 </header>
-
 
 
 <!-- ================= HERO ================= -->
 
 <section id="home" class="hero">
 
-<div class="container">
+    <div class="hero-content">
 
-<div class="hero-content">
+        <div class="tag">
+            HIGH PURITY GAS INFRASTRUCTURE & TECHNICAL SOLUTIONS
+        </div>
 
-<div class="tag">
+        <h1>
+            Precision Gas Systems<br>
+            for Critical Applications
+        </h1>
 
-HIGH PURITY GAS INFRASTRUCTURE & TECHNICAL SOLUTIONS
+        <p class="hero-text">
+            High-purity gas pipeline systems, SS316L piping, precision
+            fabrication, gas manifolds, regulators, installation,
+            testing and commissioning for demanding industrial,
+            laboratory and healthcare applications.
+        </p>
 
-</div>
+        <div class="hero-buttons">
 
+            <a href="#contact" class="primary-button">
+                Get a Quote
+            </a>
 
-<h1>
+            <a href="https://wa.me/916362080431?text=Hello%20NEONOX%20GAS%20TECH%2C%20I%20would%20like%20to%20enquire%20about%20your%20gas%20pipeline%20services."
+               class="whatsapp-button"
+               target="_blank">
+                WhatsApp Enquiry
+            </a>
 
-Precision Gas Systems
-for Critical Applications.
+        </div>
 
-</h1>
-
-
-<p class="hero-text">
-
-NEONOX GAS TECH delivers high-purity gas pipeline systems,
-medical gas pipeline systems, manifolds, regulators,
-precision tubing, fabrication, installation, testing
-and commissioning solutions.
-
-</p>
-
-
-<div class="hero-buttons">
-
-<a href="#services"
-class="btn btn-primary">
-
-Explore Our Services
-
-</a>
-
-
-<a href="#contact"
-class="btn btn-outline">
-
-Get a Quote
-
-</a>
-
-</div>
-
-</div>
-
-</div>
+    </div>
 
 </section>
-
 
 
 <!-- ================= ABOUT ================= -->
 
-<section id="about" class="about">
+<section id="about" class="section">
 
-<div class="container">
+    <div class="section-heading">
+        <div class="small-title">ABOUT US</div>
+        <h2>Engineering Reliable Gas Infrastructure</h2>
+    </div>
 
-<div class="section-heading">
+    <div class="about-grid">
 
-<span class="eyebrow">
-ABOUT US
-</span>
+        <div>
+            <p>
+                <strong>NEONOX GAS TECH</strong> provides professional
+                gas pipeline and gas distribution solutions for
+                laboratories, industries, healthcare facilities,
+                research institutions and other critical applications.
+            </p>
 
-<h2>
-Reliable Gas & Pipeline Engineering
-</h2>
+            <p>
+                Our work focuses on reliable gas infrastructure,
+                precision piping, quality fabrication, safe installation
+                and proper testing and commissioning.
+            </p>
 
-<p>
-Technical solutions designed for demanding laboratory,
-healthcare and industrial environments.
-</p>
+            <p>
+                We support projects from technical discussions and
+                material supply through installation, testing and
+                commissioning.
+            </p>
+        </div>
 
-</div>
+        <div class="about-box">
 
+            <h3>Our Core Capabilities</h3>
 
-<div class="about-grid">
+            <ul>
+                <li>High-Purity SS316L Gas Pipeline Systems</li>
+                <li>Orbital Welding & TIG Welding</li>
+                <li>Industrial Gas Pipeline Systems</li>
+                <li>Laboratory Gas Systems</li>
+                <li>Medical Gas Pipeline Systems</li>
+                <li>Cylinder Manifold Systems</li>
+                <li>Gas Regulators & Pressure Control</li>
+                <li>Specialty Gas Handling</li>
+                <li>Leak Detection & Pressure Testing</li>
+                <li>Commissioning & Infrastructure Upgradation</li>
+            </ul>
 
-<div>
+        </div>
 
-<h3>
-NEONOX GAS TECH
-</h3>
-
-
-<p>
-
-NEONOX GAS TECH specializes in high-purity gas
-infrastructure and precision pipeline systems.
-
-Our capabilities include gas distribution,
-manifolds, regulators, tubing, fabrication,
-installation, testing and commissioning.
-
-</p>
-
-
-<p>
-
-We focus on practical engineering, organized
-installations and dependable technical support
-for critical gas applications.
-
-</p>
-
-
-<ul class="about-list">
-
-<li>
-High-purity gas pipeline systems
-</li>
-
-<li>
-Medical gas pipeline systems
-</li>
-
-<li>
-Gas manifolds and pressure control
-</li>
-
-<li>
-Precision tubing and orbital welding
-</li>
-
-<li>
-Installation, testing and commissioning
-</li>
-
-</ul>
-
-</div>
-
-
-<div class="about-box">
-
-<h3>
-Our Approach
-</h3>
-
-<p>
-
-We work around the application, project scope
-and site conditions, with attention to routing,
-connections, accessibility, safety and system
-reliability.
-
-</p>
-
-<p>
-
-Our support can cover new installations,
-modifications, extensions, testing and
-maintenance.
-
-</p>
-
-</div>
-
-</div>
-
-</div>
+    </div>
 
 </section>
-
 
 
 <!-- ================= SERVICES ================= -->
 
-<section id="services">
+<section id="services" class="section light-section">
 
-<div class="container">
+    <div class="section-heading">
+        <div class="small-title">OUR SERVICES</div>
+        <h2>Complete Gas System Solutions</h2>
+        <p>
+            From pipeline installation to testing and commissioning,
+            we provide integrated technical solutions.
+        </p>
+    </div>
 
-<div class="section-heading">
+    <div class="cards-grid">
 
-<span class="eyebrow">
-WHAT WE DO
-</span>
+        <div class="service-card">
+            <div class="service-number">01</div>
+            <h3>High-Purity Gas Pipelines</h3>
+            <p>
+                SS316L gas pipeline systems designed and installed
+                for high-purity and critical gas applications.
+            </p>
+        </div>
 
-<h2>
-Our Services
-</h2>
+        <div class="service-card">
+            <div class="service-number">02</div>
+            <h3>Orbital & TIG Welding</h3>
+            <p>
+                Precision welding solutions for reliable and clean
+                gas piping installations.
+            </p>
+        </div>
 
-<p>
-Gas infrastructure and precision installation
-services for critical applications.
-</p>
+        <div class="service-card">
+            <div class="service-number">03</div>
+            <h3>Gas Manifold Systems</h3>
+            <p>
+                Cylinder manifold and changeover arrangements for
+                dependable gas supply.
+            </p>
+        </div>
 
-</div>
+        <div class="service-card">
+            <div class="service-number">04</div>
+            <h3>Regulators & Pressure Control</h3>
+            <p>
+                Gas pressure regulation and control systems based
+                on application and project requirements.
+            </p>
+        </div>
 
+        <div class="service-card">
+            <div class="service-number">05</div>
+            <h3>Installation & Fabrication</h3>
+            <p>
+                Professional pipeline routing, supports, fabrication
+                and site installation.
+            </p>
+        </div>
 
-<div class="services-grid">
+        <div class="service-card">
+            <div class="service-number">06</div>
+            <h3>Testing & Commissioning</h3>
+            <p>
+                Pressure testing, leak detection and commissioning
+                support before system handover.
+            </p>
+        </div>
 
-
-<div class="service-card">
-
-<div class="service-icon">⚙</div>
-
-<h3>
-High-Purity Gas Pipeline Systems
-</h3>
-
-<p>
-
-Pipeline routing, installation and distribution
-systems for high-purity and specialty gas applications.
-
-</p>
-
-</div>
-
-
-<div class="service-card">
-
-<div class="service-icon">✚</div>
-
-<h3>
-Medical Gas Pipeline Systems
-</h3>
-
-<p>
-
-Medical gas distribution and pipeline infrastructure
-for healthcare environments.
-
-</p>
-
-</div>
-
-
-<div class="service-card">
-
-<div class="service-icon">◉</div>
-
-<h3>
-Gas Manifolds & Regulation
-</h3>
-
-<p>
-
-Gas manifolds, changeover arrangements,
-regulators, valves and pressure-control systems.
-
-</p>
-
-</div>
-
-
-<div class="service-card">
-
-<div class="service-icon">🔧</div>
-
-<h3>
-Precision Tubing & Fabrication
-</h3>
-
-<p>
-
-Stainless-steel tubing, fittings, fabrication
-and precision connection work.
-
-</p>
-
-</div>
-
-
-<div class="service-card">
-
-<div class="service-icon">◇</div>
-
-<h3>
-Precision Orbital Welding
-</h3>
-
-<p>
-
-Precision welding solutions for clean and
-controlled gas pipeline installations.
-
-</p>
-
-</div>
-
-
-<div class="service-card">
-
-<div class="service-icon">✓</div>
-
-<h3>
-Testing & Commissioning
-</h3>
-
-<p>
-
-Leak testing, pressure testing, inspection
-and commissioning support for gas systems.
-
-</p>
-
-</div>
-
-
-</div>
-
-</div>
+    </div>
 
 </section>
-
 
 
 <!-- ================= INDUSTRIES ================= -->
 
-<section id="industries" class="industries">
+<section id="industries" class="section">
 
-<div class="container">
+    <div class="section-heading">
+        <div class="small-title">INDUSTRIES</div>
+        <h2>Applications We Support</h2>
+    </div>
 
-<div class="section-heading">
+    <div class="industry-grid">
 
-<span class="eyebrow">
-APPLICATIONS
-</span>
+        <div class="industry-card">
+            <h3>Research & Laboratories</h3>
+            <p>
+                High-purity and specialty gas distribution systems
+                for research and laboratory environments.
+            </p>
+        </div>
 
-<h2>
-Industries We Serve
-</h2>
+        <div class="industry-card">
+            <h3>Healthcare</h3>
+            <p>
+                Medical gas pipeline and associated gas distribution
+                infrastructure.
+            </p>
+        </div>
 
-</div>
+        <div class="industry-card">
+            <h3>Industrial Manufacturing</h3>
+            <p>
+                Industrial gas pipelines, manifolds and pressure
+                control systems.
+            </p>
+        </div>
 
+        <div class="industry-card">
+            <h3>Electronics & Semiconductor</h3>
+            <p>
+                High-purity gas infrastructure for demanding
+                manufacturing environments.
+            </p>
+        </div>
 
-<div class="industry-grid">
+        <div class="industry-card">
+            <h3>Pharmaceutical</h3>
+            <p>
+                Gas distribution solutions for pharmaceutical and
+                process applications.
+            </p>
+        </div>
 
-<div class="industry">
-Healthcare & Hospitals
-</div>
+        <div class="industry-card">
+            <h3>Academic & Research Institutions</h3>
+            <p>
+                Gas systems supporting research facilities,
+                laboratories and technical departments.
+            </p>
+        </div>
 
-<div class="industry">
-Research Laboratories
-</div>
-
-<div class="industry">
-Industrial Facilities
-</div>
-
-<div class="industry">
-Educational Institutions
-</div>
-
-<div class="industry">
-Petroleum & Energy
-</div>
-
-<div class="industry">
-Pharmaceutical
-</div>
-
-<div class="industry">
-High-Purity Applications
-</div>
-
-<div class="industry">
-Technical Facilities
-</div>
-
-</div>
-
-</div>
+    </div>
 
 </section>
-
 
 
 <!-- ================= PROJECTS ================= -->
 
-<section id="projects">
+<section id="projects" class="section project-section">
 
-<div class="container">
+    <div class="section-heading">
+        <div class="small-title">PROJECT GALLERY</div>
 
-<div class="section-heading">
+        <h2>Our Installation Work</h2>
 
-<span class="eyebrow">
-OUR WORK
-</span>
-
-<h2>
-Featured Projects
-</h2>
-
-<p>
-Selected project work and technical activities
-by NEONOX GAS TECH.
-</p>
-
-</div>
+        <p>
+            Selected photographs from NEONOX GAS TECH project
+            and installation activities.
+        </p>
+    </div>
 
 
-<div class="projects-grid">
+    <!-- PROJECT HIGHLIGHTS -->
+
+    <div class="project-highlights">
+
+        <div class="project-highlight completed">
+            <div class="status">COMPLETED PROJECT</div>
+
+            <h3>Shell – Ambient Air Quality Monitoring</h3>
+
+            <p>
+                Ambient Air Quality Monitoring work completed for
+                Shell project requirements.
+            </p>
+        </div>
 
 
-<!-- IISc -->
+        <div class="project-highlight ongoing">
+            <div class="status">ONGOING PROJECT</div>
 
-<div class="project-card">
+            <h3>IISc – MRC Department</h3>
 
-<div class="project-image-area">
+            <p>
+                Gas pipeline and related technical work associated
+                with the MRC Department project at IISc.
+            </p>
+        </div>
 
-<p style="color:#64748b;text-align:center;">
-IISc MRC project photographs
-<br>
-will appear here
-</p>
-
-</div>
-
-
-<div class="project-content">
-
-<span class="project-status">
-ONGOING / WORK IN PROGRESS
-</span>
-
-<h3>
-IISc – MRC Department
-</h3>
-
-<p>
-
-Gas pipeline and gas infrastructure work
-for the MRC Department at IISc.
-
-</p>
-
-<p class="project-note">
-
-Project status: ongoing / work in progress.
-
-</p>
-
-</div>
-
-</div>
+    </div>
 
 
+    <!-- PHOTO GALLERY -->
 
-<!-- SHELL -->
+    <div class="gallery">
 
-<div class="project-card">
+        <div class="gallery-item">
+            <img src="assets/project-01.jpeg"
+                 alt="NEONOX GAS TECH Project Installation 01"
+                 loading="lazy">
+        </div>
 
-<div class="project-image-area">
+        <div class="gallery-item">
+            <img src="assets/project-02.jpeg"
+                 alt="NEONOX GAS TECH Project Installation 02"
+                 loading="lazy">
+        </div>
 
-<p style="color:#64748b;text-align:center;">
-Shell Ambient Air project photographs
-<br>
-will appear here
-</p>
+        <div class="gallery-item">
+            <img src="assets/project-03.jpeg"
+                 alt="NEONOX GAS TECH Project Installation 03"
+                 loading="lazy">
+        </div>
 
-</div>
+        <div class="gallery-item">
+            <img src="assets/project-04.jpeg"
+                 alt="NEONOX GAS TECH Project Installation 04"
+                 loading="lazy">
+        </div>
 
+        <div class="gallery-item">
+            <img src="assets/project-05.jpeg"
+                 alt="NEONOX GAS TECH Project Installation 05"
+                 loading="lazy">
+        </div>
 
-<div class="project-content">
+        <div class="gallery-item">
+            <img src="assets/project-06.jpeg"
+                 alt="NEONOX GAS TECH Project Installation 06"
+                 loading="lazy">
+        </div>
 
-<span class="project-status completed">
-COMPLETED
-</span>
+        <div class="gallery-item">
+            <img src="assets/project-07.jpeg"
+                 alt="NEONOX GAS TECH Project Installation 07"
+                 loading="lazy">
+        </div>
 
-<h3>
-Shell – Ambient Air Project
-</h3>
+        <div class="gallery-item">
+            <img src="assets/project-08.jpeg"
+                 alt="NEONOX GAS TECH Project Installation 08"
+                 loading="lazy">
+        </div>
 
-<p>
+        <div class="gallery-item">
+            <img src="assets/project-09.jpeg"
+                 alt="NEONOX GAS TECH Project Installation 09"
+                 loading="lazy">
+        </div>
 
-Ambient air monitoring project work
-completed by NEONOX GAS TECH.
+        <div class="gallery-item">
+            <img src="assets/project-10.jpeg"
+                 alt="NEONOX GAS TECH Project Installation 10"
+                 loading="lazy">
+        </div>
 
-</p>
+        <div class="gallery-item">
+            <img src="assets/project-11.jpeg"
+                 alt="NEONOX GAS TECH Project Installation 11"
+                 loading="lazy">
+        </div>
 
-<p class="project-note">
+        <div class="gallery-item">
+            <img src="assets/project-12.jpeg"
+                 alt="NEONOX GAS TECH Project Installation 12"
+                 loading="lazy">
+        </div>
 
-Project information is presented at a
-high level for client confidentiality.
+        <div class="gallery-item">
+            <img src="assets/project-13.jpeg"
+                 alt="NEONOX GAS TECH Project Installation 13"
+                 loading="lazy">
+        </div>
 
-</p>
+        <div class="gallery-item">
+            <img src="assets/project-14.jpeg"
+                 alt="NEONOX GAS TECH Project Installation 14"
+                 loading="lazy">
+        </div>
 
-</div>
+        <div class="gallery-item">
+            <img src="assets/project-15.jpeg"
+                 alt="NEONOX GAS TECH Project Installation 15"
+                 loading="lazy">
+        </div>
 
-</div>
+        <div class="gallery-item">
+            <img src="assets/project-16.jpeg"
+                 alt="NEONOX GAS TECH Project Installation 16"
+                 loading="lazy">
+        </div>
 
-
-</div>
-
-</div>
+    </div>
 
 </section>
-
-
-
-<!-- ================= PROJECT GALLERY ================= -->
-
-<section class="gallery">
-
-<div class="container">
-
-<div class="section-heading">
-
-<span class="eyebrow">
-PROJECT GALLERY
-</span>
-
-<h2>
-Our Installation Work
-</h2>
-
-<p>
-
-Selected photographs from NEONOX GAS TECH
-project and installation activities.
-
-</p>
-
-</div>
-
-
-<div class="gallery-grid">
-
-
-<!--
-YOUR PHOTOS
-
-After we confirm the GitHub image filenames,
-we will place them here.
-
-Example:
-
-<img src="assets/iisc-1.jpg">
-<img src="assets/iisc-2.jpg">
-
-<img src="assets/shell-1.jpg">
-<img src="assets/shell-2.jpg">
-
--->
-
-
-<div class="gallery-item">
-
-<div style="
-height:270px;
-display:flex;
-align-items:center;
-justify-content:center;
-color:#64748b;
-text-align:center;
-padding:20px;">
-
-Project Photo 1
-
-</div>
-
-</div>
-
-
-<div class="gallery-item">
-
-<div style="
-height:270px;
-display:flex;
-align-items:center;
-justify-content:center;
-color:#64748b;
-text-align:center;
-padding:20px;">
-
-Project Photo 2
-
-</div>
-
-</div>
-
-
-<div class="gallery-item">
-
-<div style="
-height:270px;
-display:flex;
-align-items:center;
-justify-content:center;
-color:#64748b;
-text-align:center;
-padding:20px;">
-
-Project Photo 3
-
-</div>
-
-</div>
-
-
-</div>
-
-</div>
-
-</section>
-
 
 
 <!-- ================= WORKFLOW ================= -->
 
-<section>
+<section id="workflow" class="section light-section">
 
-<div class="container">
+    <div class="section-heading">
+        <div class="small-title">OUR WORKFLOW</div>
+        <h2>From Requirement to Commissioning</h2>
+    </div>
 
-<div class="section-heading">
+    <div class="workflow">
 
-<span class="eyebrow">
-OUR PROCESS
-</span>
+        <div class="workflow-step">
+            <span>01</span>
+            <h3>Requirement</h3>
+            <p>
+                Understand the application, gases, pressure,
+                points and project requirements.
+            </p>
+        </div>
 
-<h2>
-From Requirement to Handover
-</h2>
+        <div class="workflow-step">
+            <span>02</span>
+            <h3>Technical Review</h3>
+            <p>
+                Review BOQ, drawings, routing and technical
+                specifications.
+            </p>
+        </div>
 
-</div>
+        <div class="workflow-step">
+            <span>03</span>
+            <h3>Supply & Fabrication</h3>
+            <p>
+                Supply required materials and carry out precision
+                fabrication as required.
+            </p>
+        </div>
 
+        <div class="workflow-step">
+            <span>04</span>
+            <h3>Installation</h3>
+            <p>
+                Execute pipeline installation, supports,
+                manifolds and associated systems.
+            </p>
+        </div>
 
-<div class="workflow-grid">
+        <div class="workflow-step">
+            <span>05</span>
+            <h3>Testing</h3>
+            <p>
+                Conduct pressure testing, leak detection and
+                necessary quality checks.
+            </p>
+        </div>
 
+        <div class="workflow-step">
+            <span>06</span>
+            <h3>Commissioning</h3>
+            <p>
+                Complete commissioning and support system
+                handover.
+            </p>
+        </div>
 
-<div class="workflow-step">
-
-<div class="step-number">
-STEP 01
-</div>
-
-<h3>
-Requirement & Site Study
-</h3>
-
-<p>
-
-Understand application, technical requirement
-and project scope.
-
-</p>
-
-</div>
-
-
-<div class="workflow-step">
-
-<div class="step-number">
-STEP 02
-</div>
-
-<h3>
-Planning & Proposal
-</h3>
-
-<p>
-
-Plan routing, components, manifold arrangements
-and execution.
-
-</p>
-
-</div>
-
-
-<div class="workflow-step">
-
-<div class="step-number">
-STEP 03
-</div>
-
-<h3>
-Fabrication & Installation
-</h3>
-
-<p>
-
-Carry out fabrication, precision connections
-and site installation.
-
-</p>
-
-</div>
-
-
-<div class="workflow-step">
-
-<div class="step-number">
-STEP 04
-</div>
-
-<h3>
-Testing & Commissioning
-</h3>
-
-<p>
-
-Complete system checks, testing and
-commissioning support.
-
-</p>
-
-</div>
-
-
-</div>
-
-</div>
+    </div>
 
 </section>
 
+
+<!-- ================= CTA ================= -->
+
+<section class="cta-section">
+
+    <div>
+        <div class="small-title">HAVE A PROJECT?</div>
+
+        <h2>
+            Let's discuss your gas infrastructure requirement.
+        </h2>
+
+        <p>
+            Share your BOQ, drawings or project requirement with us.
+            Our team will review the requirement and get back to you.
+        </p>
+    </div>
+
+    <div class="cta-buttons">
+
+        <a href="#contact" class="primary-button">
+            Get a Quote
+        </a>
+
+        <a href="https://wa.me/916362080431?text=Hello%20NEONOX%20GAS%20TECH%2C%20I%20would%20like%20to%20discuss%20a%20project."
+           class="whatsapp-button"
+           target="_blank">
+            WhatsApp Enquiry
+        </a>
+
+    </div>
+
+</section>
 
 
 <!-- ================= CONTACT ================= -->
 
-<section id="contact" class="contact">
+<section id="contact" class="section contact-section">
 
-<div class="container">
+    <div class="section-heading">
+        <div class="small-title">CONTACT US</div>
 
-<div class="contact-grid">
+        <h2>Request a Quote</h2>
 
-
-<div>
-
-<span class="eyebrow"
-style="color:#7dd3fc;">
-
-GET IN TOUCH
-
-</span>
+        <p>
+            Tell us about your requirement and our team will
+            get in touch with you.
+        </p>
+    </div>
 
 
-<h2>
-Have a Gas System Requirement?
-</h2>
+    <div class="contact-grid">
+
+        <div class="contact-info">
+
+            <h3>NEONOX GAS TECH</h3>
+
+            <p>
+                High Purity Gas & Pipeline Systems
+            </p>
+
+            <div class="contact-detail">
+                <strong>Phone</strong>
+                <a href="tel:+916362080431">
+                    +91 63620 80431
+                </a>
+            </div>
+
+            <div class="contact-detail">
+                <strong>Email</strong>
+                <a href="mailto:sales@neonoxgastech.com">
+                    sales@neonoxgastech.com
+                </a>
+            </div>
+
+            <div class="contact-detail">
+                <strong>Alternate Email</strong>
+                <a href="mailto:neonoxgastech@gmail.com">
+                    neonoxgastech@gmail.com
+                </a>
+            </div>
+
+            <a href="https://wa.me/916362080431?text=Hello%20NEONOX%20GAS%20TECH%2C%20I%20would%20like%20to%20request%20a%20quote."
+               class="whatsapp-large"
+               target="_blank">
+                WhatsApp Us
+            </a>
+
+        </div>
 
 
-<p>
+        <div class="quote-form">
 
-Contact NEONOX GAS TECH for high-purity
-gas pipeline systems, medical gas systems,
-manifolds, fabrication, installation,
-testing and related technical requirements.
+            <form action="mailto:sales@neonoxgastech.com"
+                  method="post"
+                  enctype="text/plain">
 
-</p>
+                <label>Name</label>
+                <input type="text"
+                       name="Name"
+                       placeholder="Your name"
+                       required>
 
+                <label>Company</label>
+                <input type="text"
+                       name="Company"
+                       placeholder="Company name">
 
-<div class="contact-actions">
+                <label>Email</label>
+                <input type="email"
+                       name="Email"
+                       placeholder="Your email"
+                       required>
 
+                <label>Phone</label>
+                <input type="tel"
+                       name="Phone"
+                       placeholder="Phone number">
 
-<button
-class="btn btn-primary"
-onclick="openQuote()">
+                <label>Requirement</label>
+                <textarea name="Requirement"
+                          rows="5"
+                          placeholder="Tell us about your project or requirement"
+                          required></textarea>
 
-Request a Quote
+                <button type="submit" class="submit-button">
+                    Send Enquiry
+                </button>
 
-</button>
+            </form>
 
+        </div>
 
-<a
-class="btn whatsapp"
-href="https://wa.me/916362080431?text=Hello%20NEONOX%20GAS%20TECH%2C%20I%20would%20like%20to%20send%20an%20enquiry%20about%20your%20services."
-target="_blank">
-
-WhatsApp Enquiry
-
-</a>
-
-
-<a
-class="btn btn-outline"
-href="tel:+916362080431">
-
-Call Us
-
-</a>
-
-
-</div>
-
-</div>
-
-
-
-<div class="contact-details">
-
-
-<div>
-
-<strong>
-Company
-</strong>
-
-<span>
-NEONOX GAS TECH
-</span>
-
-</div>
-
-
-<div>
-
-<strong>
-Primary Email
-</strong>
-
-<span>
-sales@neonoxgastech.com
-</span>
-
-</div>
-
-
-<div>
-
-<strong>
-Alternate Email
-</strong>
-
-<span>
-neonoxgastech@gmail.com
-</span>
-
-</div>
-
-
-<div>
-
-<strong>
-Phone / WhatsApp
-</strong>
-
-<span>
-+91 63620 80431
-</span>
-
-</div>
-
-
-<div>
-
-<strong>
-Location
-</strong>
-
-<span>
-Bengaluru, Karnataka, India
-</span>
-
-</div>
-
-
-</div>
-
-</div>
-
-</div>
+    </div>
 
 </section>
 
+
+<!-- ================= FLOATING WHATSAPP ================= -->
+
+<a href="https://wa.me/916362080431?text=Hello%20NEONOX%20GAS%20TECH%2C%20I%20have%20a%20query%20regarding%20your%20services."
+   class="floating-whatsapp"
+   target="_blank"
+   aria-label="WhatsApp Enquiry">
+    WhatsApp Enquiry
+</a>
 
 
 <!-- ================= FOOTER ================= -->
 
 <footer>
 
-© 2026
-<strong>NEONOX GAS TECH</strong>
-· High Purity Gas & Pipeline Systems
-· Bengaluru, Karnataka
+    <div class="footer-content">
+
+        <div>
+            <strong>NEONOX GAS TECH</strong>
+            <p>
+                High Purity Gas & Pipeline Systems
+            </p>
+        </div>
+
+        <div class="footer-contact">
+            <a href="mailto:sales@neonoxgastech.com">
+                sales@neonoxgastech.com
+            </a>
+
+            <a href="tel:+916362080431">
+                +91 63620 80431
+            </a>
+        </div>
+
+    </div>
+
+    <div class="copyright">
+        © 2026 NEONOX GAS TECH. All Rights Reserved.
+    </div>
 
 </footer>
 
 
-
-<!-- ================= FLOATING WHATSAPP ================= -->
-
-<a
-class="floating-whatsapp"
-href="https://wa.me/916362080431?text=Hello%20NEONOX%20GAS%20TECH%2C%20I%20would%20like%20to%20send%20an%20enquiry."
-target="_blank">
-
-WhatsApp Enquiry
-
-</a>
-
-
-
-<!-- ================= QUOTE FORM ================= -->
-
-<div
-id="quoteModal"
-class="modal"
-onclick="if(event.target===this)closeQuote()">
-
-
-<div class="modal-box">
-
-
-<button
-class="close"
-onclick="closeQuote()">
-
-&times;
-
-</button>
-
-
-<h3>
-Request a Quote
-</h3>
-
-
-<p>
-
-Fill in your requirement and your email
-application will open with the enquiry
-addressed to NEONOX GAS TECH.
-
-</p>
-
-
-<form onsubmit="sendQuote(event)">
-
-
-<label>
-Name
-</label>
-
-<input
-id="qname"
-required>
-
-
-<label>
-Company / Organisation
-</label>
-
-<input
-id="qcompany">
-
-
-<label>
-Phone
-</label>
-
-<input
-id="qphone"
-required>
-
-
-<label>
-Email
-</label>
-
-<input
-id="qemail"
-type="email">
-
-
-<label>
-Requirement
-</label>
-
-<textarea
-id="qreq"
-required
-placeholder="Please describe your gas pipeline, manifold, medical gas, welding, testing or other requirement.">
-</textarea>
-
-
-<div class="form-actions">
-
-
-<button
-class="btn btn-primary"
-type="submit">
-
-Send Enquiry
-
-</button>
-
-
-<button
-class="btn btn-outline"
-type="button"
-onclick="closeQuote()">
-
-Cancel
-
-</button>
-
-
-</div>
-
-
-</form>
-
-</div>
-
-</div>
-
-
-
-<script>
-
-function openQuote() {
-
-    document
-    .getElementById("quoteModal")
-    .classList.add("open");
-
-}
-
-
-function closeQuote() {
-
-    document
-    .getElementById("quoteModal")
-    .classList.remove("open");
-
-}
-
-
-function sendQuote(event) {
-
-    event.preventDefault();
-
-    const name =
-    document.getElementById("qname").value;
-
-    const company =
-    document.getElementById("qcompany").value;
-
-    const phone =
-    document.getElementById("qphone").value;
-
-    const email =
-    document.getElementById("qemail").value;
-
-    const requirement =
-    document.getElementById("qreq").value;
-
-
-    const subject =
-    encodeURIComponent(
-        "Website Enquiry - NEONOX GAS TECH"
-    );
-
-
-    const body =
-    encodeURIComponent(
-        "Name: " + name +
-        "\nCompany / Organisation: " + company +
-        "\nPhone: " + phone +
-        "\nEmail: " + email +
-        "\n\nRequirement:\n" + requirement
-    );
-
-
-    window.location.href =
-    "mailto:sales@neonoxgastech.com" +
-    "?subject=" + subject +
-    "&body=" + body;
-
-}
-
-</script>
-
-
 </body>
-
 </html>
